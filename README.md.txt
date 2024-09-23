@@ -40,3 +40,9 @@ git checkout 'nome da branch' // se move entre as branchs
 git merge 'nome da branch 1' 'nome da branch 2' // une as branchs
 
 //É possível criar uma nova branch a partir de outra branch, basta não voltar para a trunk ao criar um novo ramo. Porém, devemos ter atenção extra para fazer o merge em ramificações distantes da trunk.
+
+git tag // usado para criar tags 
+
+git tag -a 1.0 -m "mensagem" 
+
+git push origin --tags // para subir as tags no remote
