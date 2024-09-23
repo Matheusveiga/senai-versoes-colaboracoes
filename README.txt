@@ -24,4 +24,6 @@ git push -u origin master // para autenticar o seu usuario github no git
 
 git push origin master // para subir suas commits ao repositorio online
 
+git pull // para atualizar seus arquivos locais com os arquivos do repositorio online
+
 
