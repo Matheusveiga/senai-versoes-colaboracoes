@@ -20,5 +20,8 @@ git remote -v // para visualizar o repositorio online
 
 git push -u origin master // para autenticar o seu usuario github no git 
 
+//esse eu aprendi sozinho
+
+git push origin master // para subir suas commits ao repositorio online
 
 
