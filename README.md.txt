@@ -33,14 +33,10 @@ git pull // para atualizar seus arquivos locais com os arquivos do repositorio o
 
 git clone 'nome do repositorio' // para clonar o repositorio
 
-<<<<<<< HEAD
 git checkout -b 'nome da branch' // para criar uma branch no repositorio // o valor '-b' indica que estamos criando uma branch nova que nao existe ainda
-=======
-git checkout -b 'nome da branch' // para criar uma branch no repositorio // o valor '-b' indica que estamos criando uma branch nova que nao existe ainda
-
-
->>>>>>> tarefa/minha-primeira-branch
 
 git checkout 'nome da branch' // se move entre as branchs 
 
 git merge 'nome da branch 1' 'nome da branch 2' // une as branchs
+
+//É possível criar uma nova branch a partir de outra branch, basta não voltar para a trunk ao criar um novo ramo. Porém, devemos ter atenção extra para fazer o merge em ramificações distantes da trunk.
