@@ -22,7 +22,12 @@ git push -u origin master // para autenticar o seu usuario github no git
 
 //esse eu aprendi sozinho
 
-git push origin master // para subir suas commits ao repositorio online
+git push origin master // para subir suas commits ao repositorio online // 
+
+// git push indica que estamos subindo uma commit para o remote, origin indica que estamos falando do nossos arquivos locais,
+e o terceiro campo eh o local onde estamos subindo a commit, no caso master eh a trunk
+
+git push origin tarefa/minha-primeira-branch // neste exemplo estamos subindo uma commit em uma branch nova que criei
 
 git pull // para atualizar seus arquivos locais com os arquivos do repositorio online
 
